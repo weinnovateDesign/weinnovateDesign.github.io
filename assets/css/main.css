@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    background-color: #171725;
+    color: #F5F5F5;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding:0;
+}
+.main{
+    margin: 100px auto 25px auto;
+    padding:0 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.full{
+    width:100%;
+    padding:0 20px;
+}
+
+footer{
+    width:70%;
+    margin: auto;
+    text-align: center;
+}
+
+h1{    
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0;
+    padding:0;
+}
+
+.caption-txt{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.title-txt{
+    font-size: 3rem;   
+}
+
+@media (min-width: 425px) {
+    .half{
+        width:100%;
+    }  
+    .main{
+        width: 90%;
+    }
+    h1{    
+        font-size: 8rem;        
+        line-height: 9rem;;
+    }
+}
+
+@media (min-width: 1024px) {
+    .half{
+        width:50%;
+    }  
+    .main{
+        width: 1024px;
+    }
+    h1{    
+        font-size: 10rem;        
+        line-height: 11rem;;
+    }
+}
+
+@media (max-width: 425px) {
+    .half{ width:100%; }  
+    h1{    
+        font-size: 5rem;        
+        line-height: 6rem;;
+    }
+}
