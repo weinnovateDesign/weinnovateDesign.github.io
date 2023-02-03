@@ -29,6 +29,7 @@ footer{
     width:70%;
     margin: auto;
     text-align: center;
+    padding:10px 0;
 }
 
 h1{    
@@ -46,7 +47,7 @@ h1{
     font-size: 3rem;   
 }
 
-@media (min-width: 425px) {
+@media (min-width: 425px) { /* Tablet CSS*/
     .half{
         width:100%;
     }  
@@ -57,9 +58,12 @@ h1{
         font-size: 8rem;        
         line-height: 9rem;;
     }
+    footer p{
+        font-size: .8rem;
+    }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) { /*Wide screen*/
     .half{
         width:50%;
     }  
@@ -70,12 +74,22 @@ h1{
         font-size: 10rem;        
         line-height: 11rem;;
     }
+    footer p{
+        font-size: .8rem;
+    }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 425px) { /* Mobile css*/
     .half{ width:100%; }  
     h1{    
         font-size: 5rem;        
         line-height: 6rem;;
+    }
+    .title-txt{
+        font-size: 2.4rem;   
+    }
+    footer p{
+        font-size: .6rem;
+        line-height: 1.2rem;
     }
 }

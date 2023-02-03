@@ -5,7 +5,7 @@
       <p class="caption-txt">mind of an engineer,<br />heart of an artist.</p>
     </div>
     <div class="half title-txt">
-      A software design company; imagining and building products and
+      A software design company, imagining and building products and
       experiences.
     </div>
   </div>
